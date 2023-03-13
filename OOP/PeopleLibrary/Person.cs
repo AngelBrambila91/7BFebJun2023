@@ -13,6 +13,12 @@ namespace PeopleLibrary
         public FavoriteFood favoriteFood;
         // net 6 new()
         public List<Person> Children;
+        public static string? PlaceHolder;
+
+        // Constants
+        public const string HomePlanet = "Earth";
+        // Read only
+        public readonly string Species = "Homo Sapiens";
         // Methods
         public string? getSurName()
         {
@@ -22,7 +28,14 @@ namespace PeopleLibrary
         {
             SurName = surname;
         }
-        
+
+        // Tuples
+        // Tuple<int, string>
+        public (int grade, string name) GetGrades()
+        {
+            return (grade: 80, name: $"{Name}");
+        }
+
         // Constructor
         // Must be named the same name of the file
         public Person()
@@ -36,9 +49,11 @@ namespace PeopleLibrary
             Children = new();
         }
 
-        public Person(string firstName, string surName = "N/A")
+        public Person(string firstName, string surName, string species)
         {
-
+            Name = firstName;
+            SurName = surName;
+            Species = species;
         }
     }
 }

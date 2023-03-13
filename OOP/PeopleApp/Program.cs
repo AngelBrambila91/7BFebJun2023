@@ -23,3 +23,18 @@ foreach (var item in cristian.Children)
 {
     WriteLine($"Name of children {item.Name}");
 }
+
+BankAccount danielAccount = new BankAccount();
+danielAccount.AccountName = "Daniel Jimenez";
+danielAccount.Balance = 1000M;
+
+
+WriteLine($"{dante.Species}");
+Person Luan = new("Luan", "Esteban", "Reptile");
+WriteLine($"Luan Species is : {Luan.Species}");
+
+// Explicit Return
+(int grade, string name) grade = Luan.GetGrades();
+// easy AF\
+var grade2 = Luan.GetGrades();
+WriteLine($"{grade.name} has a score of : {grade.grade}");
