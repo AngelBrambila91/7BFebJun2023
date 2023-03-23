@@ -1,0 +1,12 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/bin/Debug/net7.0/CalculatorLib.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/bin/Debug/net7.0/CalculatorLib.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/bin/Debug/net7.0/CalculatorLib.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/refint/CalculatorLib.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/CalculatorLib.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/1P/UT/CalculatorLib/obj/Debug/net7.0/ref/CalculatorLib.dll
