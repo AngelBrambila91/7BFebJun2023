@@ -1,0 +1,15 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Serialization
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Serialization.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Serialization.runtimeconfig.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Serialization.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Serialization.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/refint/Serialization.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.genruntimeconfig.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/ref/Serialization.dll

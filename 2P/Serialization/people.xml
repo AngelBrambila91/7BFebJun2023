@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person Salary="3000" FName="Alfred" LName="Anaya" DoB="2001-02-14T00:00:00" />
+  <Person Salary="5000" FName="Minerva" LName="Rivera" DoB="2000-08-23T00:00:00" />
+  <Person Salary="20000" FName="Daniel" LName="Jimenez" DoB="2003-04-30T00:00:00" />
+  <Person Salary="60000" FName="Luan" DoB="2003-04-30T00:00:00">
+    <Children>
+      <Person Salary="0" FName="Chong" LName="Chang" DoB="2020-04-01T00:00:00" />
+    </Children>
+  </Person>
+</ArrayOfPerson>
