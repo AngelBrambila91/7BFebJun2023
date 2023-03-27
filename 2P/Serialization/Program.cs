@@ -4,8 +4,9 @@ using static System.Environment;
 using static System.IO.Path;
 using static System.Console;
 
-// List of persons to serialize
 
+#region XML
+// List of persons to serialize
 List<Person> people = new()
 {
     new (3000M)
@@ -59,3 +60,20 @@ using (FileStream stream = File.Create(path))
 WriteLine($"Written {new FileInfo(path).Length:N0} Bytes of XML to {path}");
 
 WriteLine(File.ReadAllText(path));
+#endregion
+
+#region JSON
+    string jsonPath = Combine(CurrentDirectory, "people.json");
+    using(StreamWriter jsonStream = File.CreateText(jsonPath))
+    {
+        Newtonsoft.Json.JsonSerializer jss = new();
+        jss.Serialize(jsonStream, people);
+    }
+    WriteLine();
+    WriteLine($"Written {new FileInfo(jsonPath).Length} bytes of JSON to :  {jsonPath} ");
+    WriteLine(File.ReadAllText(jsonPath));
+
+    // Deserialize
+    WriteLine();
+    WriteLine("Deserialize Json");
+#endregion

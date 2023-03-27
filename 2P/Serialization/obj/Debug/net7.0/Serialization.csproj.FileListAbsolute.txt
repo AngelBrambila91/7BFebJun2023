@@ -13,3 +13,5 @@
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.pdb
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.genruntimeconfig.cache
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/ref/Serialization.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/obj/Debug/net7.0/Serialization.csproj.CopyComplete

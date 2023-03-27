@@ -1,0 +1,38 @@
+[
+    {
+        "Salary": 3000.0,
+        "FirstName": "Alfred",
+        "LastName": "Anaya",
+        "DateOfBirth": "2001-02-14T00:00:00",
+        "Children": null
+    },
+    {
+        "Salary": 5000.0,
+        "FirstName": "Minerva",
+        "LastName": "Rivera",
+        "DateOfBirth": "2000-08-23T00:00:00",
+        "Children": null
+    },
+    {
+        "Salary": 20000.0,
+        "FirstName": "Daniel",
+        "LastName": "Jimenez",
+        "DateOfBirth": "2003-04-30T00:00:00",
+        "Children": null
+    },
+    {
+        "Salary": 60000.0,
+        "FirstName": "Luan",
+        "LastName": null,
+        "DateOfBirth": "2003-04-30T00:00:00",
+        "Children": [
+            {
+                "Salary": 0.0,
+                "FirstName": "Chong",
+                "LastName": "Chang",
+                "DateOfBirth": "2020-04-01T00:00:00",
+                "Children": null
+            }
+        ]
+    }
+]

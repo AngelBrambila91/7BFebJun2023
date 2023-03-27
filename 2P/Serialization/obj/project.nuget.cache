@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UUEq1rFlRb01YE3EeNqsJC11Hq2YI3XGVz2Xl9omT+/MYOlHBPQmT8j2xdoPAlSaBw1uUsthWMuTYO4Sp9d+0Q==",
+  "dgSpecHash": "BNTSlCLiHu9ZsQe2hZEQlN3Up4Autne38S3fCwL9Mtbupa40vK78g+0BW9e5wRamCCK9Rx8sDBnfEXoIt2WdNg==",
   "success": true,
   "projectFilePath": "/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/Serialization/Serialization.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/angelbrambila/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
