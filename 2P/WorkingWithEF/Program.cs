@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using WorkingWithEFCore;
+
+Northwind db = new();
+Console.WriteLine($"Data Provider = {db.Database.ProviderName}");
