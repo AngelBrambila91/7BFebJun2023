@@ -1,4 +1,13 @@
 ﻿using WorkingWithEFCore;
+using static System.Console;
+namespace WorkingWithEFCore;
 
-Northwind db = new();
-Console.WriteLine($"Data Provider = {db.Database.ProviderName}");
+partial class Program
+{
+    private static void Main(string[] args)
+    {
+        // Northwind db = new();
+        // WriteLine($"Data Provider = {db.Database.ProviderName}");
+        QueryingCategories();
+    }
+}
