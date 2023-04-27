@@ -8,6 +8,8 @@ partial class Program
     {
         // Northwind db = new();
         // WriteLine($"Data Provider = {db.Database.ProviderName}");
-        QueryingCategories();
+        //QueryingCategories();
+        FilterIncludes();
+        //QueryingProducts();
     }
 }
