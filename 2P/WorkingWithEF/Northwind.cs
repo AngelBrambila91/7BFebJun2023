@@ -22,8 +22,10 @@ public class Northwind : DbContext
         optionsBuilder.UseSqlite(connection);
         // Basic Logging
         // Error, Verbose, Info, Warning
-        optionsBuilder.LogTo(WriteLine)
-        .EnableSensitiveDataLogging();
+        // optionsBuilder.LogTo(WriteLine)
+        // .EnableSensitiveDataLogging();
+        //Activate Lazy Loading
+        optionsBuilder.UseLazyLoadingProxies();
     }
 
     protected override void OnModelCreating(

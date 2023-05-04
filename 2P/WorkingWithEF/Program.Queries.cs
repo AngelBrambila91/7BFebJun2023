@@ -11,8 +11,8 @@ partial class Program
         {
             SectionTitle("Categories and how many products they have");
             // IQueryable
-            IQueryable<Category>? categories = db.Categories?
-                                                .Include(c => c.Products);
+            IQueryable<Category>? categories = db.Categories;
+                                                //.Include(c => c.Products);
             if((categories is null) ||  (!categories.Any()))
             {
                 Fail("No categories found");
@@ -74,6 +74,7 @@ partial class Program
             if(products is null)
             {
                 Fail("No products found");
+                return;
             }
             foreach (Product p in products)
             {
@@ -82,4 +83,53 @@ partial class Program
         }
     }
     
+    //LIKE
+    // %a
+    static void QueryingWithLike()
+    {
+        using (Northwind db = new())
+        {
+            SectionTitle("Pattern matching with LIKE");
+            Write("Enter part of the paroduct name :");
+            string? input = ReadLine();
+            if(string.IsNullOrWhiteSpace(input))
+            {
+                Fail("You did not enter part of a product name");
+                return;
+            }
+            IQueryable<Product>? products = db.Products?
+                                            .Where(p => EF.Functions.Like(p.ProductName, $"%{input}%"));
+            if((products is null) || (!products.Any()))
+            {
+                Fail("No products found");
+                return;
+            }
+            foreach (Product product in products)
+            {
+                WriteLine($"{product.ProductName} has {product.Stock} units in stock. Discontinued? {product.Discontinued}");
+            }
+        }
+    }
+    
+    static void GetRandomProduct()
+    {
+        using (Northwind db = new())
+        {
+            SectionTitle("Get a random product");
+            // how many rows are on Products
+            int? rowCount = db.Products?.Count();
+            if(rowCount == null)
+            {
+                Fail("Products table is empty");
+                return;
+            }
+            Product? p = db.Products?.FirstOrDefault(p => p.ProductId == (int) (EF.Functions.Random() * rowCount));
+            if(p == null)
+            {
+                Fail("Product not found");
+                return;
+            }
+            WriteLine($"Random product : {p.ProductId} {p.ProductName}");
+        }
+    }
 }

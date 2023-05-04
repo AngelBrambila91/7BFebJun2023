@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "bVN36r/Iirs5qUyG5iaOB6aM+fEwms88C75Ir3oY0G4mIZWMKmfAFaEEHn2ztyIcNWrmmv8cNawUYZ9ezYcX3A==",
+  "dgSpecHash": "7KYSsO8teAsoqHaLR1akx+7Cc7NBmg2POIwMJ974P/mSYLaEsLTTEFu3SjFwT9IKSD1lWb4dlgYLavMyVWnHcw==",
   "success": true,
   "projectFilePath": "/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/WorkingWithEF.csproj",
   "expectedPackageFiles": [
+    "/Users/angelbrambila/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.data.sqlite.core/7.0.0/microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.proxies/7.0.0/microsoft.entityframeworkcore.proxies.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.0/microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.0/microsoft.entityframeworkcore.sqlite.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.0/microsoft.entityframeworkcore.sqlite.core.7.0.0.nupkg.sha512",
@@ -25,6 +27,7 @@
     "/Users/angelbrambila/.nuget/packages/sqlitepclraw.core/2.1.2/sqlitepclraw.core.2.1.2.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.2/sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.2/sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "/Users/angelbrambila/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/angelbrambila/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"

@@ -54,3 +54,8 @@
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/obj/Debug/net7.0/WorkingWithEF.pdb
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/obj/Debug/net7.0/WorkingWithEF.genruntimeconfig.cache
 /Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/obj/Debug/net7.0/ref/WorkingWithEF.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/bin/Debug/net7.0/Castle.Core.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Proxies.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/2P/WorkingWithEF/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
