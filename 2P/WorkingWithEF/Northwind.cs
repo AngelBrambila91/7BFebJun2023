@@ -20,6 +20,10 @@ public class Northwind : DbContext
         WriteLine($"Connection : {connection}");
         ForegroundColor = previousColor;
         optionsBuilder.UseSqlite(connection);
+        // Basic Logging
+        // Error, Verbose, Info, Warning
+        optionsBuilder.LogTo(WriteLine)
+        .EnableSensitiveDataLogging();
     }
 
     protected override void OnModelCreating(
