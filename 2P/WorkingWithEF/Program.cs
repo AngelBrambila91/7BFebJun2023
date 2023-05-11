@@ -14,6 +14,7 @@ partial class Program
         //QueryingWithLike();
         //GetRandomProduct();
         JoinCategoriesAndProducts();
+        GroupJoinCategoriesAndproducts();
 
         //Eager Loading : Load data early
         //Lazy Loading : Load data just before it is needed

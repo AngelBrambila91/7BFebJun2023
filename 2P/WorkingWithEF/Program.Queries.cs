@@ -157,7 +157,29 @@ partial class Program
     {
         using(Northwind db = new ())
         {
-            var queryGroup = 
+            var queryGroup = db.Categories?.AsEnumerable().GroupJoin(
+                inner: db.Products!,
+                outerKeySelector: category => category.CategoryId,
+                innerKeySelector: product => product.CategoryId,
+                resultSelector: (c, matchingProducts) => new {
+                    c.CategoryName,
+                    Products = matchingProducts.OrderBy(p => p.ProductName)
+                }
+            );
+
+            foreach (var category in queryGroup!)
+            {
+                WriteLine($"{category.CategoryName} {category.Products.Count()}");
+                foreach (var product in category.Products)
+                {
+                    WriteLine($" {product.ProductName}");
+                }
+            }
         }
+    }
+
+    static void AggregateProducts()
+    {
+        
     }
 }
