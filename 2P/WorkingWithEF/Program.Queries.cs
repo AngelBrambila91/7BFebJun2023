@@ -132,4 +132,32 @@ partial class Program
             WriteLine($"Random product : {p.ProductId} {p.ProductName}");
         }
     }
+    
+    static void JoinCategoriesAndProducts()
+    {
+        SectionTitle("Join categories and Products");
+        using(Northwind db = new())
+        {
+            // Join every product to list of categories
+            var queryJoin = db.Categories!.Join(
+                inner: db.Products!,
+                outerKeySelector: category => category.CategoryId, // ON Categories.Id = Products.Id
+                innerKeySelector: product => product.CategoryId,
+                resultSelector: (c, p) => new { c.CategoryName, p.ProductName, p.ProductId}
+            );
+
+            foreach(var item in queryJoin)
+            {
+                WriteLine($"{item.ProductId} {item.ProductName} {item.CategoryName}");
+            }
+        }
+    }
+
+    static void GroupJoinCategoriesAndproducts()
+    {
+        using(Northwind db = new ())
+        {
+            var queryGroup = 
+        }
+    }
 }

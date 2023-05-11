@@ -8,11 +8,12 @@ partial class Program
     {
         // Northwind db = new();
         // WriteLine($"Data Provider = {db.Database.ProviderName}");
-        QueryingCategories();
+        //QueryingCategories();
         //FilterIncludes();
         //QueryingProducts();
         //QueryingWithLike();
         //GetRandomProduct();
+        JoinCategoriesAndProducts();
 
         //Eager Loading : Load data early
         //Lazy Loading : Load data just before it is needed
