@@ -1,0 +1,15 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/bin/Debug/net7.0/HandlingExceptions
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/bin/Debug/net7.0/HandlingExceptions.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/bin/Debug/net7.0/HandlingExceptions.runtimeconfig.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/bin/Debug/net7.0/HandlingExceptions.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/bin/Debug/net7.0/HandlingExceptions.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/refint/HandlingExceptions.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/HandlingExceptions.genruntimeconfig.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/HandlingExceptions/obj/Debug/net7.0/ref/HandlingExceptions.dll

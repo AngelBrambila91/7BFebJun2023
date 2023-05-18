@@ -1,0 +1,15 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/bin/Debug/net7.0/IterationStatements
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/bin/Debug/net7.0/IterationStatements.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/bin/Debug/net7.0/IterationStatements.runtimeconfig.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/bin/Debug/net7.0/IterationStatements.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/bin/Debug/net7.0/IterationStatements.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/refint/IterationStatements.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/IterationStatements.genruntimeconfig.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/IterationStatements/obj/Debug/net7.0/ref/IterationStatements.dll

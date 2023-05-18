@@ -180,6 +180,56 @@ partial class Program
 
     static void AggregateProducts()
     {
-        
+        SectionTitle("Aggegate Products");
+        using(Northwind db = new())
+        {
+            // Try to get an efficient Count of Products ...
+            // db Set??
+            if(db.Products!.TryGetNonEnumeratedCount(out int CountDBSet))
+            {
+                WriteLine("{0, -25} {1, 10}",
+                arg0: "Product count from DbSet: ",
+                arg1: CountDBSet);
+            }
+            else
+            {
+                WriteLine("Products DBset does not have Count property");
+            }
+            // Another form of Count is from List<T>
+            List<Product> products = db.Products!.ToList();
+            if(products.TryGetNonEnumeratedCount(out int countList))
+            {
+                WriteLine("{0, -25} {1, 10}",
+                arg0: "Product count from List: ",
+                arg1: countList);
+            }
+            else
+            {
+                WriteLine("Products List does not have Count property");
+            }
+                WriteLine("{0, -25} {1, 10}",
+                arg0: "Products count: ",
+                arg1: products.Count());
+
+                WriteLine("{0, -27} {1, 8}",
+                arg0: "Discontinued Product count: ",
+                arg1: products.Count(product => product.Discontinued));
+
+                WriteLine("{0, -25} {1,10:$#,##0.00}",
+                arg0: "Highest product price:",
+                arg1: db.Products!.Max(p => p.Cost));
+
+                WriteLine("{0, -25} {1,10:N0}",
+                arg0: "Sum of units in stock:",
+                arg1: db.Products!.Sum(p => p.Stock));
+
+                WriteLine("{0, -25} {1,10:$#,##0.00}",
+                arg0: "Average unit Price:",
+                arg1: db.Products!.Average(p => p.Cost));
+
+                WriteLine("{0, -25} {1,10:$#,##0.00}",
+                arg0: "Value of units in stocks:",
+                arg1: db.Products!.Sum(p => p.Cost * p.Stock));
+        }
     }
 }

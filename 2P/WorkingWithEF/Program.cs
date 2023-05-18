@@ -13,8 +13,10 @@ partial class Program
         //QueryingProducts();
         //QueryingWithLike();
         //GetRandomProduct();
-        JoinCategoriesAndProducts();
-        GroupJoinCategoriesAndproducts();
+        //JoinCategoriesAndProducts();
+        //GroupJoinCategoriesAndproducts();
+        //AggregateProducts();
+        PagingProducts();
 
         //Eager Loading : Load data early
         //Lazy Loading : Load data just before it is needed

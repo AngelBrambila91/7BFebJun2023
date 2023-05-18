@@ -1,0 +1,15 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/bin/Debug/net7.0/CastingConverting
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/bin/Debug/net7.0/CastingConverting.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/bin/Debug/net7.0/CastingConverting.runtimeconfig.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/bin/Debug/net7.0/CastingConverting.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/bin/Debug/net7.0/CastingConverting.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/refint/CastingConverting.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/CastingConverting.genruntimeconfig.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/CastingConverting/obj/Debug/net7.0/ref/CastingConverting.dll
