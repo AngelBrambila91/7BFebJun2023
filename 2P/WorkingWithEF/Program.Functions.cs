@@ -11,7 +11,7 @@ partial class Program
         string line = new('-', count : 73);
         string lineHalf = new('-', count : 30);
         WriteLine(line);
-        WriteLine("{0,4} {1,40} {2,12} {3,-15}",
+        WriteLine("{0,4} {1,-40} {2,12} {3,-15}",
         "ID", "Product Name", "Unit Price", "Discontinued");
         WriteLine(line);
         foreach (Product p in products)
