@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Northwind.Shared;
 
@@ -43,7 +44,7 @@ public partial class NorthwindContext : DbContext
             string path = string.Empty;
             if(dir.EndsWith("net7.0"))
             {
-                path = Path.Combine("..", "..", "..", "...", "Northwind.db");
+                path = Path.Combine("..", "..", "..", "..", "Northwind.db");
             }
             else
             {

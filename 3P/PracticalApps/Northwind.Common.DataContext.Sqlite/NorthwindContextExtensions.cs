@@ -5,10 +5,17 @@ namespace Northwind.Shared;
 
 public static class NorthwindContextExtensions
 {
-    public static IServiceCollection AddNorthwindContext(this IServiceCollection services, string relativePath = "..")
+    /// <summary>
+    /// Adds NorthwindContext to the specified IServiceCollection. Uses the Sqlite database provider.
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="relativePath">Set to override the default of ".."</param>
+    /// <param name="databaseFilename">Set to override the default of "Northwind.db"</param>
+    /// <returns>An IServiceCollection that can be used to add more services.</returns>
+    public static IServiceCollection AddNorthwindContext(this IServiceCollection services, string relativePath = "..", string databaseFilename = "Northwind.db")
     {
-        string databasePath = Path.Combine(relativePath, "Northwind.db");
-        services.AddDbContext<NorthwindContext> (options => 
+        string databasePath = Path.Combine(relativePath, databaseFilename);
+        services.AddDbContext<NorthwindContext>(options =>
         {
             options.UseSqlite($"Data Source={databasePath}");
             options.LogTo(WriteLine,
