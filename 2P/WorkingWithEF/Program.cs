@@ -39,7 +39,7 @@ partial class Program
 
 
         #region Delete
-            WriteLine("About to delete all products whose name starts with Lou");
+            WriteLine("About to delete all products whose name starts with Maz");
             Write("Please Enter to continue or any other to exit.");
             if(ReadKey(intercept: true).Key == ConsoleKey.Enter)
             {

@@ -1,0 +1,14 @@
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/bin/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.deps.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/bin/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.runtimeconfig.json
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/bin/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/bin/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/refint/Northwind.Common.EntityModels.Sqlite.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.genruntimeconfig.cache
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.EntityModels.Sqlite/obj/Debug/net7.0/ref/Northwind.Common.EntityModels.Sqlite.dll
