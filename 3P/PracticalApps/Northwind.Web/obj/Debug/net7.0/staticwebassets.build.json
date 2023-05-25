@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "qc+RhqGNt11Q1vdgRx5CTbpDkSBAUGjB7zyRHuUkwNA=",
+  "Source": "Northwind.Web",
+  "BasePath": "_content/Northwind.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Northwind.Web/wwwroot",
+      "Source": "Northwind.Web",
+      "ContentRoot": "/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/wwwroot/",
+      "BasePath": "_content/Northwind.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
