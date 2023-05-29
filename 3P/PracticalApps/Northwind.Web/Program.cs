@@ -1,5 +1,8 @@
+using Northwind.Shared;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
+// Add Northwind as a service
+builder.Services.AddNorthwindContext();
 var app = builder.Build();
 
 if(!app.Environment.IsDevelopment())

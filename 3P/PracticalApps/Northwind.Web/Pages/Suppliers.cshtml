@@ -1,15 +1,24 @@
 @page
 @model Northwind.Web.Pages.SuppliersModel
+@using Northwind.Shared
 <div class="row">
     <h1 class="display">Suppliers</h1>
     <table class="thead-inverse">
-        <tr><th>Company Name</th></tr>
+        <tr>
+            <th>Company Name</th>
+            <th>Country</th>
+            <th>Phone</th>
+        </tr>
         <tbody>
             @if (Model.Suppliers is not null)
             {
-                @foreach (string name in Model.Suppliers)
+                @foreach (Supplier s in Model.Suppliers)
                 {
-                    <tr><td>@name</td></tr>
+                    <tr>
+                        <td>@s.CompanyName</td>
+                        <td>@s.Country</td>
+                        <td>@s.Phone</td>
+                    </tr>
                 }
             }
         </tbody>
