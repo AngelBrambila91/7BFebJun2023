@@ -63,3 +63,6 @@
 /Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/bin/Debug/net7.0/Northwind.Common.DataContext.Sqlite.pdb
 /Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/bin/Debug/net7.0/Northwind.Common.EntityModels.Sqlite.pdb
 /Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/obj/Debug/net7.0/Northwind.Web.csproj.CopyComplete
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/bin/Debug/net7.0/Northwind.Razor.Employees.dll
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/bin/Debug/net7.0/Northwind.Razor.Employees.pdb
+/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Web/obj/Debug/net7.0/Northwind.Web.MvcApplicationPartsAssemblyInfo.cs

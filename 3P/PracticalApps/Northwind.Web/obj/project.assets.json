@@ -516,6 +516,22 @@
         "runtime": {
           "bin/placeholder/Northwind.Common.EntityModels.Sqlite.dll": {}
         }
+      },
+      "Northwind.Razor.Employees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Northwind.Common.DataContext.Sqlite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1163,11 +1179,17 @@
       "type": "project",
       "path": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj",
       "msbuildProject": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj"
+    },
+    "Northwind.Razor.Employees/1.0.0": {
+      "type": "project",
+      "path": "../Library/Northwind.Razor.Employees/Northwind.Razor.Employees.csproj",
+      "msbuildProject": "../Library/Northwind.Razor.Employees/Northwind.Razor.Employees.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Northwind.Common.DataContext.Sqlite >= 1.0.0"
+      "Northwind.Common.DataContext.Sqlite >= 1.0.0",
+      "Northwind.Razor.Employees >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1195,6 +1217,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Library/Northwind.Razor.Employees/Northwind.Razor.Employees.csproj": {
+              "projectPath": "/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Library/Northwind.Razor.Employees/Northwind.Razor.Employees.csproj"
+            },
             "/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj": {
               "projectPath": "/Users/angelbrambila/Documents/Code/7BFebJun2023/3P/PracticalApps/Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj"
             }
